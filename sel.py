@@ -2,6 +2,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 
+#PUTTING VALUES
 driver = webdriver.Firefox(executable_path= "/usr/bin/geckodriver")
 driver.get("https://www.facebook.com")
 driver.maximize_window()
